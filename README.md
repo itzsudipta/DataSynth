@@ -1,55 +1,34 @@
+---
+title: DataSynth
+emoji: 🤖
+colorFrom: indigo
+colorTo: blue  # Changed from cyan to blue
+sdk: gradio
+sdk_version: "4.15.0"
+app_file: app.py
+pinned: false
+---
 
-# 🤖 DataSynth
+# DataSynth
 
-**DataSynth** is an AI chatbot built using the powerful Gemma 2B language model.  
-It provides intelligent responses and is accessible via a user-friendly Gradio interface.  
-The project is hosted on Hugging Face Spaces.
+DataSynth is a chatbot built using **Gemma 2B**, integrated via `langchain` and deployed with Gradio.
+
+## 🚀 Tech Stack
+
+| Technology        | Description                             |
+|-------------------|-----------------------------------------|
+| Python            | Programming language                    |
+| Transformers      | Model loading and inference             |
+| LangChain         | Prompt templates and LLM chaining       |
+| Gradio            | UI framework for interactive demos      |
+| Hugging Face Hub  | Deployment platform                     |
+
+## 📁 Files
+
+- `app.py` — Main Gradio app
+- `requirements.txt` — Required packages
+- `README.md` — Project overview and config
 
 ---
 
-## 🚀 Features
-
-- Text generation using Google's Gemma 2B model
-- Chatbot interface powered by Gradio
-- Deployed on Hugging Face Spaces
-- Easy integration with LangChain and HuggingFace Hub
-
----
-
-## 🛠️ Tech Stack
-
-| Component           | Technology             | Purpose                            |
-|---------------------|------------------------|------------------------------------|
-| 🤖 LLM              | Gemma 2B               | Language model                     |
-| 🧠 Framework        | LangChain              | LLM prompt and logic control       |
-| 💬 UI               | Gradio                 | Chat interface                     |
-| ☁️ Hosting          | Hugging Face Spaces    | Deploying and sharing              |
-| 🔗 Integration      | huggingface_hub        | Push/pull model/code               |
-
----
-
-## 📦 Requirements
-
-- Python 3.8+
-- `transformers`
-- `langchain`
-- `langchain_huggingface`
-- `gradio`
-- `huggingface_hub`
-
----
-
-## 📁 Project Structure
-
-DataSynth/
-├── app.py
-├── README.md
-├── requirements.txt
-└── DataSynth.py
-
----
-
-## 🚀 Run the App
-
-You can launch the chatbot from Hugging Face Spaces once deployed, or run locally via Colab or your terminal.
-
+🔗 Try it live on [Hugging Face Spaces](https://huggingface.co/spaces/sudiptaverse/DataSynth)

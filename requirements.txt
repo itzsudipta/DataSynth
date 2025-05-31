@@ -4,3 +4,4 @@ gradio
 accelerate
 langchain-core
 langchain-community
+langchain-huggingface

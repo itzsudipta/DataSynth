@@ -2,9 +2,9 @@
 title: DataSynth
 emoji: 🤖
 colorFrom: indigo
-colorTo: blue  # Changed from cyan to blue
+colorTo: blue
 sdk: gradio
-sdk_version: "4.15.0"
+sdk_version: 5.32.0
 app_file: app.py
 pinned: false
 ---
